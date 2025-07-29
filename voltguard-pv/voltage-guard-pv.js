@@ -20,7 +20,7 @@ function updateSettingsAndResetIfNeeded(callback) {
 
             // Check if any parameter has changed
             if (voltageThreshold !== lastVoltageThreshold || runDuration !== lastRunDuration) {
-                console.log("Settings changed - resetting operation");
+                //console.log("Settings changed - resetting operation");
                 lastVoltageThreshold = voltageThreshold;
                 lastRunDuration = runDuration;
 
@@ -44,22 +44,22 @@ function checkVoltage() {
             let now = Date.now();
 
             if (typeof voltage !== "number") {
-                console.log("Failed to read voltage.");
+                //console.log("Failed to read voltage.");
                 return;
             }
 
-            console.log("Voltage:", voltage, "V");
-            console.log("Threshold:", voltageThreshold, "Run time:", runDuration / 60000, "min");
+            //console.log("Voltage:", voltage, "V");
+            //console.log("Threshold:", voltageThreshold, "Run time:", runDuration / 60000, "min");
 
             if (!isOn && voltage >= voltageThreshold) {
-                console.log("Voltage above threshold, turning on the socket.");
+                //console.log("Voltage above threshold, turning on the socket.");
                 Shelly.call("Switch.Set", { id: 0, on: true }, null);
                 isRunning = true;
                 activationTime = now;
             }
 
             if (isOn && isRunning && now - activationTime >= runDuration) {
-                console.log("Run time exceeded, turning off the socket.");
+                //console.log("Run time exceeded, turning off the socket.");
                 Shelly.call("Switch.Set", { id: 0, on: false }, null);
                 isRunning = false;
                 activationTime = 0;
