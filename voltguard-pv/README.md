@@ -113,4 +113,4 @@ Jeśli chcesz widzieć dane w konsoli (napięcie, próg, czas aktywacji), **odko
 - Powinien działać na innych urządzeniach Shelly obsługujących 230V
 - Upewnij się, że firmware obsługuje **skrypty** i **komponenty wirtualne**
 
-W razie uwag lub propozycji napisz na: **pegw28@wp.pl**
+W razie uwag lub propozycji napisz na: **pege28@wp.pl**
