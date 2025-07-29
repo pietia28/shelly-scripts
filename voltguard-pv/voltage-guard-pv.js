@@ -1,3 +1,16 @@
+/**
+ * @license
+ * SPDX-License-Identifier: MIT
+ *
+ * Voltage Guard PV Script for Shelly
+ *
+ * This software is provided "as is", without warranty of any kind.
+ * Use at your own risk. The author assumes no responsibility for any
+ * damage, malfunction, or unintended behavior resulting from the use of this script.
+ *
+ * Copyright (c) 2025 Piotr Głowacki
+ */
+
 // Initial configuration
 let voltageThreshold = 253;
 let runDuration = 10 * 60 * 1000;
