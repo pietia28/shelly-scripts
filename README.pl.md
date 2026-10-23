@@ -11,6 +11,7 @@ Zbiór skryptów do urządzeń Shelly, powstałych na bazie realnych instalacji 
 | [pv-heat](pv-heat/README.pl.md) | Kieruje nadwyżkę z PV do bufora ciepła i zasobników CWU, steruje pompą cyrkulacyjną na różnicy temperatur. | Shelly 1PM Gen4 + Plus Add-on, Shelly Pro 3EM |
 | [voltguard-pv](voltguard-pv/) | Załącza odbiornik, gdy napięcie sieci przekroczy próg, żeby falownik PV nie wyłączał się przez przepięcie. | Shelly Plug S Gen3 i inne urządzenia ze skryptami |
 | [cover-manual-override](cover-manual-override/README.pl.md) | Zjazd rolet o zadanej godzinie, pomijany, gdy roleta została ręcznie otwarta do końca. Ustawienia w Virtual Components. | Gen3/Gen4, Pro (tryb Cover) |
+| [router-watchdog](router-watchdog/README.pl.md) | Restartuje zawieszony router/modem, gdy zniknie internet. Rosnące przerwy chronią przed pętlą restartów przy awarii u operatora. | Plugi i przekaźniki Gen2+, np. Plus Plug S, Plug S Gen3 |
 
 ## Narzędzia webowe
 

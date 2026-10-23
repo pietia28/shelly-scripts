@@ -11,6 +11,7 @@ A collection of scripts for Shelly devices, built from real installation cases a
 | [pv-heat](pv-heat/) | Diverts surplus PV power into a heat buffer and DHW cylinders, with a differential circulation pump. | Shelly 1PM Gen4 + Plus Add-on, Shelly Pro 3EM |
 | [voltguard-pv](voltguard-pv/) | Switches on a load when the grid voltage exceeds a threshold, so the PV inverter does not trip on overvoltage. | Shelly Plug S Gen3 and other devices with scripting |
 | [cover-manual-override](cover-manual-override/) | Scheduled cover position that is skipped when the cover was opened fully by hand. Settings via Virtual Components. | Gen3/Gen4, Pro (Cover mode) |
+| [router-watchdog](router-watchdog/) | Power-cycles a hung router/modem when the Internet is gone, with growing pauses so an ISP outage does not cause a restart loop. | Gen2+ plugs and relays, e.g. Plus Plug S, Plug S Gen3 |
 
 ## Web tools
 
